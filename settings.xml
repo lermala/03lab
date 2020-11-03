@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_252" class="java.beans.XMLDecoder">
+ <object class="sample.Settings" id="Settings0"/>
+<void class="sample.PersonPack.Student" id="Student0">
+ <void property="education">
+  <string>dede</string>
+ </void>
+ <void property="level">
+  <int>3</int>
+ </void>
+ <void property="name">
+  <string>lenya</string>
+ </void>
+ <void property="scholarship">
+  <float>231.0</float>
+ </void>
+ <void property="age">
+  <int>15</int>
+ </void>
+</void>
+<void class="sample.PersonPack.Student" id="Student1">
+ <void property="education">
+  <string>dede</string>
+ </void>
+ <void property="level">
+  <int>3</int>
+ </void>
+ <void property="name">
+  <string>Pavel</string>
+ </void>
+ <void property="scholarship">
+  <float>231.0</float>
+ </void>
+ <void property="age">
+  <int>15</int>
+ </void>
+</void>
+<void class="sample.PersonPack.Student" id="Student2">
+ <void property="education">
+  <string>23df</string>
+ </void>
+ <void property="level">
+  <int>2</int>
+ </void>
+ <void property="name">
+  <string>fee</string>
+ </void>
+ <void property="scholarship">
+  <float>223.0</float>
+ </void>
+ <void property="age">
+  <int>22</int>
+ </void>
+</void>
+<void class="sample.Settings" id="Field0" method="getField">
+ <string>people</string>
+ <void id="ArrayList0" method="get">
+  <object idref="Settings0"/>
+  <void method="add">
+   <object idref="Student2"/>
+  </void>
+  <void method="add">
+   <object idref="Student1"/>
+  </void>
+  <void method="add">
+   <object idref="Student0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+</java>

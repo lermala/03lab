@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="324.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddController">
+   <children>
+      <Button fx:id="buttonAdd" layoutX="299.0" layoutY="285.0" mnemonicParsing="false" onAction="#addPerson" text="Добавить" />
+      <Label layoutX="42.0" layoutY="22.0" text="Заполните все поля" />
+      <TextField fx:id="txtName" layoutX="107.0" layoutY="53.0" />
+      <TextField fx:id="txtAge" layoutX="107.0" layoutY="86.0" prefHeight="25.0" prefWidth="52.0" />
+      <TextField fx:id="txtPlace" layoutX="174.0" layoutY="161.0" />
+      <RadioButton fx:id="rbStudent" layoutX="44.0" layoutY="127.0" mnemonicParsing="false" text="Студент" />
+      <RadioButton fx:id="rbWorker" layoutX="157.0" layoutY="127.0" mnemonicParsing="false" text="Работник" />
+      <TextField fx:id="txtLevel" layoutX="174.0" layoutY="206.0" />
+      <Label layoutX="43.0" layoutY="57.0" text="Имя:" />
+      <Label layoutX="43.0" layoutY="90.0" text="Возраст:" />
+      <Label layoutX="43.0" layoutY="165.0" text="Место учебы/работы:" />
+      <Label layoutX="43.0" layoutY="210.0" text="Курс/должность:" />
+      <Label layoutX="40.0" layoutY="251.0" text="Стипендия/оклад:" />
+      <TextField fx:id="txtSalary" layoutX="174.0" layoutY="247.0" />
+   </children>
+</AnchorPane>
